@@ -1,0 +1,32 @@
+{
+	"name": "Rails tutorial",
+	"dockerComposeFile": [
+		"../docker-compose.yml"
+	],
+	"service": "web",
+	"workspaceFolder": "/code",
+	"customizations": {
+		"vscode": {
+			"settings": {
+				"ruby.useBundler": true,
+				"ruby.lint": {
+					"rubocop": {
+						"useBundler": true
+					}
+				},
+				"ruby.format": "rubocop"
+			},
+			"extensions": [
+				"bung87.rails",
+				"hridoy.rails-snippets",
+				"aki77.rails-db-schema",
+				"kaiwood.endwise",
+				"castwide.solargraph",
+				"misogi.ruby-rubocop",
+				"KoichiSasada.vscode-rdbg",
+				"shopify.ruby-lsp"
+			]
+		}
+	},
+	"shutdownAction": "stopCompose"
+}
