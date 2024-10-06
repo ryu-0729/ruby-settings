@@ -1,0 +1,28 @@
+{
+    "recommendations": [
+        // 共通設定
+        "MS-CEINTL.vscode-language-pack-ja",
+        "oderwat.indent-rainbow",
+        "wayou.vscode-todo-highlight",
+        "vscodevim.vim", // 不要であれば削除
+        // Rails, Ruby関連
+        "bung87.rails",
+        "hridoy.rails-snippets",
+		"aki77.rails-db-schema",
+		"kaiwood.endwise",
+		"castwide.solargraph",
+		"misogi.ruby-rubocop",
+		"KoichiSasada.vscode-rdbg",
+		"shopify.ruby-lsp",
+        // Vue, TypeScript関連
+        "dbaeumer.vscode-eslint",
+        "esbenp.prettier-vscode",
+        "octref.vetur",
+        "formulahendry.auto-rename-tag",
+        "Vue.volar",
+        // Git関連
+        "eamodio.gitlens",
+        "donjayamanne.githistory",
+        "mhutchie.git-graph",
+    ]
+}
