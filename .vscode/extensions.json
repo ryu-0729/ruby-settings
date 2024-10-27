@@ -5,6 +5,7 @@
         "oderwat.indent-rainbow",
         "wayou.vscode-todo-highlight",
         "vscodevim.vim", // 不要であれば削除
+        "ziyasal.vscode-open-in-github",
         // Rails, Ruby関連
         "bung87.rails",
         "hridoy.rails-snippets",
